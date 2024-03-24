@@ -1,6 +1,4 @@
 // Copyright 2021 NNTU-CS
-int countPairs1(int *arr, int len, int value) {
-  return 0;
 int countPairs1(int* arr, int len, int value) {
 int cnt = 0;
   for (int i = 0; i < len; ++i) {
@@ -12,8 +10,6 @@ int cnt = 0;
   }
   return count;
 }
-int countPairs2(int *arr, int len, int value) {
-  return 0;
 int countPairs2(int* arr, int len, int value) {
 int cnt = 0;
 int right = len - 1;
@@ -34,8 +30,6 @@ int right = len - 1;
   }
   return cnt;
 }
-int countPairs3(int *arr, int len, int value) {
-  return 0;
 int cbinsearch(int* arr, int left, int right, int value) {
 int midle = left + (right - left) / 2;
   if (right < left) {
