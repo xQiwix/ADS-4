@@ -8,7 +8,7 @@ int cnt = 0;
       }
     }
   }
-  return count;
+  return cnt;
 }
 int countPairs2(int* arr, int len, int value) {
 int cnt = 0;
